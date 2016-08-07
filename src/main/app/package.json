@@ -1,0 +1,28 @@
+{
+  "name": "schreinerleinsdemodesk",
+  "productName": "SchreinerleinsDemoDesk",
+  "main": "main.js",
+  "author": "Michael Schreiner",
+  "description": "Schreinerlein's Demo Desk",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "http://www.your-all-in-one.de",
+  "copyright": "MIT",
+  "dependencies": {
+    "windows-shortcuts": "0.1.4"
+  },
+  "build": {
+    "appId": "de.yaio.schreinerleinsdemodesk",
+    "app-category-type": "public.app-category.graphics-design",
+    "dmg": {
+      "contents": [
+      ]
+    },
+    "win": {
+      "remoteReleases": "https://github.com/das-praktische-schreinerlein/schreinerleins-demo-desk"
+    },
+    "linux": {
+      "target": ["deb", "AppImage"]
+    }
+  }
+}
